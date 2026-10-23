@@ -1,0 +1,12 @@
+{
+  "name": "carrom-multiplayer",
+  "private": true,
+  "workspaces": [
+    "packages/client",
+    "packages/signaling-server"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev --workspace=packages/client",
+    "dev:signaling": "npm run dev --workspace=packages/signaling-server"
+  }
+}

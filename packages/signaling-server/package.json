@@ -1,0 +1,15 @@
+{
+  "name": "@carrom/signaling-server",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "@types/ws": "^8.5.0"
+  }
+}

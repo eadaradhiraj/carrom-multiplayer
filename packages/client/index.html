@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Carrom Multiplayer</title>
+  </head>
+  <body style="margin:0;display:flex;gap:16px;padding:16px;font-family:sans-serif;background:#1a1a1a;color:#eee">
+    <canvas id="board" width="680" height="680" style="border:2px solid #333"></canvas>
+    <div id="lobby" style="min-width:200px">
+      <h3 style="margin:0 0 8px">Room: <span id="room-code">—</span></h3>
+      <div id="role-badge" style="font-size:12px;padding:4px 8px;border-radius:4px;background:#333;display:inline-block;margin-bottom:12px">connecting…</div>
+      <h4 style="margin:12px 0 4px">Players (<span id="player-count">0</span>/4)</h4>
+      <ul id="player-list" style="list-style:none;padding:0;margin:0"></ul>
+      <div id="reconnect-banner" style="display:none;margin-top:12px;padding:8px;background:#664400;border-radius:4px;font-size:13px">Waiting for player to reconnect…</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

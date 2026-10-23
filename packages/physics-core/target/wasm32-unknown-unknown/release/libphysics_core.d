@@ -1,0 +1,1 @@
+/home/edhiraj/Documents/projs/carrom-multiplayer/packages/physics-core/target/wasm32-unknown-unknown/release/libphysics_core.rlib: /home/edhiraj/Documents/projs/carrom-multiplayer/packages/physics-core/src/lib.rs
